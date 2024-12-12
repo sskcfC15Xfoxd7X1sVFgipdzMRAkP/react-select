@@ -1725,7 +1725,7 @@ export default class Select<
       'aria-required': required,
       role: 'combobox',
       'aria-activedescendant': this.isAppleDevice
-        ? undefined
+        ? ''
         : this.state.focusedOptionId || '',
 
       ...(menuIsOpen && {

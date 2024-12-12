@@ -1,7 +1,7 @@
 # Build
 lib
-dist
 docs/dist
+docs/generate-magical-types/dist
 .env
 
 # Logs
